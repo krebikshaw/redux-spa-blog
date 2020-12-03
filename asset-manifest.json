@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/redux-spa-blog/static/js/main.003ad2be.chunk.js",
+    "main.js.map": "/redux-spa-blog/static/js/main.003ad2be.chunk.js.map",
+    "runtime-main.js": "/redux-spa-blog/static/js/runtime-main.1972a6ef.js",
+    "runtime-main.js.map": "/redux-spa-blog/static/js/runtime-main.1972a6ef.js.map",
+    "static/js/2.36def888.chunk.js": "/redux-spa-blog/static/js/2.36def888.chunk.js",
+    "static/js/2.36def888.chunk.js.map": "/redux-spa-blog/static/js/2.36def888.chunk.js.map",
+    "index.html": "/redux-spa-blog/index.html",
+    "static/js/2.36def888.chunk.js.LICENSE.txt": "/redux-spa-blog/static/js/2.36def888.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1972a6ef.js",
+    "static/js/2.36def888.chunk.js",
+    "static/js/main.003ad2be.chunk.js"
+  ]
+}
