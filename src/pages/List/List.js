@@ -101,7 +101,7 @@ const List = () => {
   } = usePost();
 
   useEffect(() => {
-    handleClearErrorMessage;
+    handleClearErrorMessage();
     handleGetAllPosts();
   }, []);
 

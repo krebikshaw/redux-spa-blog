@@ -106,7 +106,7 @@ const HomePage = () => {
   } = usePost();
 
   useEffect(() => {
-    handleClearErrorMessage; 
+    handleClearErrorMessage(); 
     handleSetPage();
   }, []);
   useEffect(() => handleGetPosts(), [currentPage]);
