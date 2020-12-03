@@ -17,6 +17,7 @@ export default function usePost() {
   const isLoadingGetPosts = useSelector(selectIsLoadingGetPosts);
   const errorMessage = useSelector(selectErrorMessage);
 
+  const handleClearErrorMessage = () => dispatch(setErrorMessage(''));
   const handleGetPosts = () => dispatch(getPosts(currentPage));
   const handleChangePage = number => dispatch(setPage(number));
   const handleSetPage = () => dispatch(getTotalPages());
@@ -56,6 +57,7 @@ export default function usePost() {
     handleChangePage,
     handlePostArticle,
     handleUpdateArticle,
-    handleDeletePost
+    handleDeletePost,
+    handleClearErrorMessage
   };
 };

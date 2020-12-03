@@ -96,10 +96,14 @@ const List = () => {
     posts,
     handleGetAllPosts,
     isLoadingGetPosts,
-    errorMessage
+    errorMessage,
+    handleClearErrorMessage
   } = usePost();
 
-  useEffect(() => handleGetAllPosts(), []);
+  useEffect(() => {
+    handleClearErrorMessage;
+    handleGetAllPosts();
+  }, []);
 
   if (isLoadingGetPosts) return (
     <Loading>

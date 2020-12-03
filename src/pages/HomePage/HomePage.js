@@ -101,10 +101,14 @@ const HomePage = () => {
     errorMessage,
     isLoadingGetPosts,
     handleGetPosts,
-    handleSetPage
+    handleSetPage,
+    handleClearErrorMessage
   } = usePost();
 
-  useEffect(() => handleSetPage(), []);
+  useEffect(() => {
+    handleClearErrorMessage; 
+    handleSetPage();
+  }, []);
   useEffect(() => handleGetPosts(), [currentPage]);
 
   return (
